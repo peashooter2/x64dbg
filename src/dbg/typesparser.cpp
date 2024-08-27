@@ -3,7 +3,6 @@
 
 using namespace Types;
 
-#include "btparser/btparser/lexer.h"
 
 void LoadModel(const std::string & owner, Model & model);
 
