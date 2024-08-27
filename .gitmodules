@@ -1,6 +1,3 @@
-[submodule "src/dbg/btparser"]
-	path = src/dbg/btparser
-	url = ../btparser
 [submodule "deps"]
 	path = deps
 	url = ../deps
