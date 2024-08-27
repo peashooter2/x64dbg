@@ -12,6 +12,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    
+    - name: test
+      run: Dism /Online /Get-CurrentEdition
 
     - name: Add MSBuild to PATH
       uses: microsoft/setup-msbuild@v2
